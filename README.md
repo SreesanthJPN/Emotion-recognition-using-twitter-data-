@@ -22,8 +22,8 @@ The Text Sentiment Classifier is a PyTorch-based project that utilizes a pre-tra
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/SreesanthJPN/Emotion-recognition-using-twitter-data
+   cd https://github.com/SreesanthJPN/Emotion-recognition-using-twitter-data
    ```
 
 2. Install the required Python libraries:
@@ -75,7 +75,8 @@ The Text Sentiment Classifier is a PyTorch-based project that utilizes a pre-tra
    ```bash
    python train.py
    ```
-3. The trained model will be saved as `text_classifier.pt`.
+3. Dataset :- [https://www.kaggle.com/datasets/dunyajasim/twitter-dataset-for-sentiment-analysis]
+4. The trained model will be saved as `text_classifier.pt`.
 
 ### Prediction
 1. Use the `predict.py` script to classify new text inputs:
@@ -105,11 +106,6 @@ The Text Sentiment Classifier is a PyTorch-based project that utilizes a pre-tra
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
-
-## Acknowledgments
-- Hugging Face's Transformers library for pre-trained language models.
-- PyTorch for the deep learning framework.
-- NLTK for text preprocessing.
 
 ---
 Feel free to reach out with any questions or contributions!
